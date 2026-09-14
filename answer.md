@@ -25,3 +25,9 @@ I would use /// XML documentation comments when I want to document a public clas
 They can be used by IDEs to show documentation and can also be used to generate XML documentation for the project.
 
 Plain // comments are better for short notes or explaining implementation details inside the code.
+
+
+## 4. 4. Why does C# have no true global variables, and what's the closest equivalent?
+
+C# has no true global variables because variables must belong to a type or a specific scope.
+This helps keep code organized and avoids uncontrolled shared state. 
